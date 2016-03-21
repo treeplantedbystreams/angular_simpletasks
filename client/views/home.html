@@ -1,29 +1,5 @@
+<h1>Hello World</h1>
 
-		<div ng-view></div>
-        <div class="Main" ng-controller="HomeController">
-            <div class="blogsContainer">
-                <h1>{{ welcome }}</h1>
-                <h2>{{ me }}</h2>
-             </div>   
-                <input ng-model="blogid">  
-                <div type="form " ng-repeat="blog in blogs" class="post">
-                    {{blog.title}}, {{blog.author}}, {{blog.content}}, {{blog.blogDate|date}},
-                    <div class="rating" ng-click="plusOne($index)">+ {{ product.likes }} </p> 
-                    </div>
-             </div>
-               
-           <a href="#new post">Make a new post</a>
- <input style="width:100%;" type="text" ng-model="weather">
-  
- <br>
- <input ng-model="name">
- <input ng-model="post">
- <input ng-model="date">
- <input ng-model="content">
- <button ng-click="Post()">Post</button>
- +<br>
- <input ng-model="noteid">
- 
-        
-        
-      
+<button onclick="shalom()"> Shalom</button>
+
+<div type="button" onclick="inbox() "class="inbox"></div>
