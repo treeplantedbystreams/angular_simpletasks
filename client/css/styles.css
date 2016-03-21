@@ -1,0 +1,18 @@
+
+html,
+body {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ color: #211f1e ;
+ background: url(/img/bg.jpg) no-repeat center center fixed; 
+ background-size: cover;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+.container {
+ position: relative;
+ top: 100px;
+}
