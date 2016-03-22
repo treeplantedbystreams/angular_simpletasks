@@ -15,3 +15,14 @@ body {
  position: relative;
  top: 100px;
 }
+
+.inbox{
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+    color: green;
+    font-family: 'Lucida Sans';
+    font-size: 20px
+    
+}
+

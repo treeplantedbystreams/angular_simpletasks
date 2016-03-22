@@ -1,12 +1,15 @@
 //Logic for page actions here. 
 app.controller('MainController', ['$scope', function($scope){
-    console.log('inside controller');
+   alert(iseeit);
 
+$scope.createAlert() = function() {
+    var iseeit = $scope.ok;
+    alert(iseeit);
+}
 
 
 }]);
-
-// function shalom(){
-//     alert("Shalom!")
-// }
+function shalom(){
+    alert("Shalom!")
+}
 
